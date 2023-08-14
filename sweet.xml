@@ -14,12 +14,9 @@
   <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="sweet-github" />
   <project path="vendor/xiaomi/firmware/sweet" name="vendor_xiaomi_firmware_sweet" remote="sweet-gitlab" />
 
-  <!-- Hardware repos -->
-  <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" />
-
   <!-- Packages repos -->
   <project path="packages/apps/XiaomiParts" name="packages_apps_XiaomiParts" remote="sweet-github" />
 
   <!-- Misc repos -->
-  <project path="vendor/dolby" name="vendor_dolby" remote="sweet-gitlab" />
+  <project path="vendor/xiaomi/dolby" name="vendor_xiaomi_dolby" remote="sweet-gitlab" />
 </manifest>
