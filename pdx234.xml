@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="pdx234-github"
+      fetch="https://github.com/TheParasiteProject-Devices"
+      revision="14.0" />
+  
+  <remote name="pdx234-gitlab"
+      fetch="https://gitlab.com/someone5678"
+      revision="14.0" />
+
+  <!-- Device repos -->
+  <project path="device/sony/pdx234" name="device_sony_pdx234" remote="pdx234-github" />
+  <project path="device/sony/sm8550-common" name="device_sony_sm8550-common" remote="pdx234-github" />
+  <project path="kernel/sony/sm8550-devicetrees" name="kernel_sony_sm8550-devicetrees" remote="pdx234-github" />
+  <project path="kernel/sony/sm8550-modules" name="kernel_sony_sm8550-modules" remote="pdx234-github" />
+  <project path="kernel/sony/sm8550" name="kernel_sony_sm8550" remote="pdx234-github" />
+  <project path="vendor/sony/pdx234" name="vendor_sony_pdx234" remote="pdx234-github" />
+  <project path="vendor/sony/sm8550-common" name="vendor_sony_sm8550-common" remote="pdx234-github" />
+
+  <!-- Misc repos -->
+  <project path="vendor/dolby" name="vendor_dolby" remote="pdx234-gitlab" />
+  <project path="vendor/dolby-vision" name="vendor_dolby-vision" remote="pdx234-gitlab" />
+  <project path="vendor/sony/extra-yodo" name="vendor_sony_extra" remote="pdx234-github" />
+</manifest>
