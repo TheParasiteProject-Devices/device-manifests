@@ -2,11 +2,11 @@
 <manifest>
   <remote name="common-github"
       fetch="https://github.com/TheParasiteProject-Devices"
-      revision="14.2" />
+      revision="main" />
   
   <remote name="common-gitlab"
       fetch="https://gitlab.com/someone5678"
-      revision="14.2" />
+      revision="main" />
 
   <!-- Misc repos -->
   <project path="vendor/dolby" name="vendor_dolby" remote="common-gitlab" />

@@ -2,11 +2,11 @@
 <manifest>
   <remote name="sweet-github"
       fetch="https://github.com/TheParasiteProject-Devices"
-      revision="14.2" />
+      revision="main" />
   
   <remote name="sweet-gitlab"
       fetch="https://gitlab.com/someone5678"
-      revision="14.2" />
+      revision="main" />
 
   <!-- Device repos -->
   <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="sweet-github" />
