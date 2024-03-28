@@ -16,7 +16,6 @@
   <project path="kernel/sony/sm8550" name="kernel_sony_sm8550" remote="pdx234-github" />
   <project path="vendor/sony/pdx234" name="vendor_sony_pdx234" remote="pdx234-github" />
   <project path="vendor/sony/sm8550-common" name="vendor_sony_sm8550-common" remote="pdx234-github" />
-  <project path="vendor/sony/qti-telephony" name="vendor_sony_qti-telephony" remote="pdx234-github" />
 
   <!-- Misc repos -->
   <project path="vendor/sony/extra-yodo" name="vendor_sony_extra-yodo" remote="pdx234-github" />
