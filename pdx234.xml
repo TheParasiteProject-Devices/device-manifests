@@ -18,5 +18,6 @@
   <project path="vendor/sony/sm8550-common" name="vendor_sony_sm8550-common" remote="pdx234-github" />
 
   <!-- Misc repos -->
-  <project path="vendor/sony/extra-yodo" name="vendor_sony_extra-yodo" remote="pdx234-github" />
+  <project path="device/sony/extra" name="device_sony_extra" remote="pdx234-github" />
+  <project path="vendor/sony/extra" name="vendor_sony_extra" remote="pdx234-github" />
 </manifest>
