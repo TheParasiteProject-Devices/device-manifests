@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="common-github"
+  <remote name="device-github"
       fetch="https://github.com/TheParasiteProject-Devices"
       revision="main" />
   
-  <remote name="common-gitlab"
+  <remote name="device-gitlab"
       fetch="https://gitlab.com/someone5678"
       revision="main" />
-
-  <!-- Misc repos -->
-  <project path="vendor/dolby" name="vendor_dolby" remote="common-gitlab" />
-  <project path="vendor/dolby-vision" name="vendor_dolby-vision" remote="common-gitlab" />
 </manifest>

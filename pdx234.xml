@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="pdx234-github"
-      fetch="https://github.com/TheParasiteProject-Devices"
-      revision="main" />
-  
-  <remote name="pdx234-gitlab"
-      fetch="https://gitlab.com/someone5678"
-      revision="main" />
-
   <!-- Device repos -->
-  <project path="device/sony/pdx234" name="device_sony_pdx234" remote="pdx234-github" />
-  <project path="device/sony/sm8550-common" name="device_sony_sm8550-common" remote="pdx234-github" />
-  <project path="kernel/sony/sm8550-devicetrees" name="kernel_sony_sm8550-devicetrees" remote="pdx234-github" />
-  <project path="kernel/sony/sm8550-modules" name="kernel_sony_sm8550-modules" remote="pdx234-github" />
-  <project path="kernel/sony/sm8550" name="kernel_sony_sm8550" remote="pdx234-github" />
-  <project path="vendor/sony/pdx234" name="vendor_sony_pdx234" remote="pdx234-github" />
-  <project path="vendor/sony/sm8550-common" name="vendor_sony_sm8550-common" remote="pdx234-github" />
+  <project path="device/sony/pdx234" name="device_sony_pdx234" remote="device-github" />
+  <project path="device/sony/sm8550-common" name="device_sony_sm8550-common" remote="device-github" />
+  <project path="kernel/sony/sm8550-devicetrees" name="kernel_sony_sm8550-devicetrees" remote="device-github" />
+  <project path="kernel/sony/sm8550-modules" name="kernel_sony_sm8550-modules" remote="device-github" />
+  <project path="kernel/sony/sm8550" name="kernel_sony_sm8550" remote="device-github" />
+  <project path="vendor/sony/pdx234" name="vendor_sony_pdx234" remote="device-github" />
+  <project path="vendor/sony/sm8550-common" name="vendor_sony_sm8550-common" remote="device-github" />
 
   <!-- Misc repos -->
-  <project path="device/sony/extra" name="device_sony_extra" remote="pdx234-github" />
-  <project path="vendor/sony/extra" name="vendor_sony_extra" remote="pdx234-github" />
+  <project path="device/sony/extra" name="device_sony_extra" remote="device-github" />
+  <project path="vendor/sony/extra" name="vendor_sony_extra" remote="device-github" />
 </manifest>

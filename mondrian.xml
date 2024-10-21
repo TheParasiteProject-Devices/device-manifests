@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="mondrian-github"
-      fetch="https://github.com/TheParasiteProject-Devices"
-      revision="main" />
-  
-  <remote name="mondrian-gitlab"
-      fetch="https://gitlab.com/someone5678"
-      revision="main" />
-
   <!-- Device repos -->
-  <project path="device/xiaomi/mondrian" name="device_xiaomi_mondrian" remote="mondrian-github" />
-  <project path="device/xiaomi/sm8450-common" name="device_xiaomi_sm8450-common" remote="mondrian-github" />
-  <project path="kernel/xiaomi/sm8450-devicetrees" name="kernel_xiaomi_sm8450-devicetrees" remote="mondrian-github" />
-  <project path="kernel/xiaomi/sm8450-modules" name="kernel_xiaomi_sm8450-modules" remote="mondrian-github" />
-  <project path="kernel/xiaomi/sm8450" name="kernel_xiaomi_sm8450" remote="mondrian-github" />
-  <project path="vendor/xiaomi/mondrian" name="vendor_xiaomi_mondrian" remote="mondrian-github" />
-  <project path="vendor/xiaomi/firmware/mondrian" name="vendor_xiaomi_firmware_mondrian" remote="mondrian-gitlab" />
-  <project path="vendor/xiaomi/sm8450-common" name="vendor_xiaomi_sm8450-common" remote="mondrian-github" />
+  <project path="device/xiaomi/mondrian" name="device_xiaomi_mondrian" remote="device-github" />
+  <project path="device/xiaomi/sm8450-common" name="device_xiaomi_sm8450-common" remote="device-github" />
+  <project path="kernel/xiaomi/sm8450-devicetrees" name="kernel_xiaomi_sm8450-devicetrees" remote="device-github" />
+  <project path="kernel/xiaomi/sm8450-modules" name="kernel_xiaomi_sm8450-modules" remote="device-github" />
+  <project path="kernel/xiaomi/sm8450" name="kernel_xiaomi_sm8450" remote="device-github" />
+  <project path="vendor/xiaomi/mondrian" name="vendor_xiaomi_mondrian" remote="device-github" />
+  <project path="vendor/xiaomi/firmware/mondrian" name="vendor_xiaomi_firmware_mondrian" remote="device-gitlab" />
+  <project path="vendor/xiaomi/sm8450-common" name="vendor_xiaomi_sm8450-common" remote="device-github" />
 </manifest>

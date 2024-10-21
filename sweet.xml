@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="sweet-github"
-      fetch="https://github.com/TheParasiteProject-Devices"
-      revision="main" />
-  
-  <remote name="sweet-gitlab"
-      fetch="https://gitlab.com/someone5678"
-      revision="main" />
-
   <!-- Device repos -->
-  <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="sweet-github" />
-  <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="sweet-github" />
-  <project path="vendor/xiaomi/firmware/sweet" name="vendor_xiaomi_firmware_sweet" remote="sweet-gitlab" />
-  <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="sweet-github" />
-  <project path="vendor/xiaomi/dolby/sweet" name="vendor_xiaomi_dolby_sweet" remote="sweet-gitlab" />
-  <project path="packages/apps/XiaomiParts" name="packages_apps_XiaomiParts" remote="sweet-github" />
+  <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="device-github" />
+  <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="device-github" />
+  <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="device-github" />
+  <project path="vendor/xiaomi/firmware/sweet" name="vendor_xiaomi_firmware_sweet" remote="device-gitlab" />
+  <project path="vendor/xiaomi/sm6150-common" name="vendor_xiaomi_sm6150-common" remote="device-github" />
+  <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="device-github" />
 </manifest>
